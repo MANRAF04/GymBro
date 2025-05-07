@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">gymbro</string>
+    <string name="app_widget_description">Displays your current exercise streak.</string>
+</resources>
