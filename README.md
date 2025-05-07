@@ -13,10 +13,10 @@ A fitness tracking application that allows users to log their exercises and moni
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/home-screen.png" width="200" alt="Home Screen">
-  <img src="screenshots/add-exercise.png" width="200" alt="Add Exercise Screen">
-  <img src="screenshots/calendar-view.png" width="200" alt="Calendar View">
-  <img src="screenshots/exercise-list.png" width="200" alt="Exercise List">
+  <img src="screenshots/home-screen.jpg" width="200" alt="Home Screen">
+  <img src="screenshots/add-exercise.jpg" width="200" alt="Add Exercise Screen">
+  <img src="screenshots/calendar-view.jpg" width="200" alt="Calendar View">
+  <img src="screenshots/exercise-list.jpg" width="200" alt="Exercise List">
 </p>
 
 ## Installation
