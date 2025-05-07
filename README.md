@@ -1,41 +1,37 @@
-# GymBro Project
+# GymBro
 
-## Overview
-GymBro is a fitness tracking application that allows users to log their exercises and monitor their progress. This project includes an Android home widget that displays the user's current exercise streak, providing a quick overview of their activity directly on the home screen.
+A fitness tracking application that allows users to log their exercises and monitor their progress.
 
 ## Features
-- **Exercise Logging**: Users can log their exercises, including duration, repetitions, and notes.
-- **Streak Tracking**: The app tracks the user's exercise streak, encouraging consistent activity.
-- **Home Widget**: A widget that displays the current exercise streak with a visual indicator (fire icon) that changes color based on whether the user has exercised today.
 
-## Widget Details
-The home widget is designed to provide users with immediate feedback on their exercise streak:
-- **Fire Icon**: Displays an orange icon if the user has exercised today; otherwise, it shows a gray icon.
-- **Streak Count**: Shows the number of consecutive days the user has exercised.
+- Log exercises with name, duration, repetitions, and notes
+- Track workout streaks with a heatmap calendar
+- View your current streak on the home screen
+- Copy previous exercises for quick logging
+- Home screen widget showing current streak (Android only)
 
-## Setup Instructions
-1. **Clone the Repository**: 
-   ```
-   git clone <repository-url>
-   cd gymbro
-   ```
+## Screenshots
 
-2. **Open the Project**: Open the project in your preferred IDE (e.g., Android Studio).
+<p align="center">
+  <img src="screenshots/home-screen.jpg" width="200" alt="Home Screen">
+  <img src="screenshots/add-exercise.jpg" width="200" alt="Add Exercise Screen">
+  <img src="screenshots/calendar-view.jpg" width="200" alt="Calendar View">
+  <img src="screenshots/exercise-list.jpg" width="200" alt="Exercise List">
+</p>
 
-3. **Configure the Widget**:
-   - Implement the `StreakWidgetProvider` class in `android/app/src/main/kotlin/com/example/gymbro/StreakWidgetProvider.kt`.
-   - Create the widget layout in `android/app/src/main/res/layout/streak_widget_layout.xml`.
-   - Define the widget properties in `android/app/src/main/res/xml/streak_widget_info.xml`.
-   - Update the `AndroidManifest.xml` to register the widget provider.
+## Installation
 
-4. **Run the App**: Build and run the app on an Android device or emulator. Add the widget to your home screen to see your exercise streak.
+### Android
 
-## Usage
-- **Logging Exercises**: Users can log exercises through the main app interface. The widget will automatically update to reflect the latest streak information.
-- **Interacting with the Widget**: Tapping on the widget can be configured to open the main app, allowing users to view detailed exercise logs or add new exercises.
+1. Download the APK from the [Releases](https://github.com/MANRAF04/GymBro/releases) section
+2. Enable installation from unknown sources in your device settings
+3. Open the downloaded APK to install
 
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
+### iOS
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Clone the repository and build using Xcode:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/gymbro.git
+cd gymbro
+flutter run
