@@ -1,6 +1,11 @@
-# GymBro
+<p align="center">
+  <img src="assets/gymbro_512.png" width="150" alt="GymBro Logo">
+</p>
 
-A fitness tracking application that allows users to log their exercises and monitor their progress.
+<h1 align="center">GymBro</h1>
+
+<p align="center">A fitness tracking application that allows users to log their exercises and monitor their progress.</p>
+
 
 ## Features
 
@@ -32,6 +37,6 @@ A fitness tracking application that allows users to log their exercises and moni
 Clone the repository and build using Xcode:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gymbro.git
-cd gymbro
+git clone https://github.com/MANRAF04/GymBro.git
+cd GymBro
 flutter run
